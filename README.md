@@ -32,13 +32,6 @@ To list the symbols exported by this package:
 ```
 
 
-External dependencies
----------------------
-
-- ironclad
-- cl-who
-
-
 Credits
 -------
 
