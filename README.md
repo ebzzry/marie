@@ -18,17 +18,17 @@ $ mkdir -p ~/common-lisp
 $ git clone https://github.com/ebzzry/mof ~/common-lisp/mof
 ```
 
-Then load it with:
+Then load it:
 
 ```
 $ sbcl
 * (asdf:make :mof)
 ```
 
-To list the symbols exported by this package:
+To return the symbols exported by this package:
 
 ```
-* (mof:print-symbols :mof)
+* (mof:symbols :mof)
 ```
 
 
