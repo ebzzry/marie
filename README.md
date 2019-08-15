@@ -5,7 +5,7 @@ mof (🦋)
 Overview
 --------
 
-This is a small collection of Common Lisp utilities that I use personally.
+This is a small collection of miscellaneous Common Lisp utilities.
 
 
 Usage
@@ -13,23 +13,17 @@ Usage
 
 Clone this repo to `~/common-lisp`:
 
-```
-$ mkdir -p ~/common-lisp
-$ git clone https://github.com/ebzzry/mof ~/common-lisp/mof
-```
+    $ mkdir -p ~/common-lisp
+    $ git clone https://github.com/a1b10/mof ~/common-lisp/mof
 
 Then load it:
 
-```
-$ sbcl
-* (asdf:make :mof)
-```
+    $ sbcl
+    * (asdf:make :mof)
 
 To return the symbols exported by this package:
 
-```
-* (mof:symbols :mof)
-```
+    * (mof:symbols :mof)
 
 
 Credits
