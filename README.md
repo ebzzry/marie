@@ -14,7 +14,7 @@ Usage
 Clone this repo to `~/common-lisp`:
 
     $ mkdir -p ~/common-lisp
-    $ git clone https://github.com/a1b10/mof ~/common-lisp/mof
+    $ git clone https://github.com/ebzzry/mof ~/common-lisp/mof
 
 Then load it:
 
