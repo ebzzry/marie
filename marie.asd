@@ -7,20 +7,16 @@
 
 (defsystem :marie
   :name "marie"
-  :version "0.0.10"
-  :description "My personal miscellaneous utilities"
+  :version "1.0.0"
+  :description "My personal collection of utilities"
   :license "CC0"
-  :author "Rommel MARTINEZ <ebzzry@ebzzry.io>"
-  :depends-on (#:ironclad
-               #+sbcl #:sb-posix
-               #+sbcl #:sb-sprof)
-  :serial t
-  :components ((:file "packages")
-               (:file "sequences")
-               (:file "strings")
-               (:file "symbols")
-               (:file "misc")
-               (:file "collect")
-               (:file "files")
-               (:file "grids")
-               (:file "reader")))
+  :author "Rommel MARTINEZ <rom@mimix.io>"
+  :class :package-inferred-system
+  :depends-on ("marie/sequences"
+               "marie/strings"
+               "marie/symbols"
+               "marie/collect"
+               "marie/files"
+               "marie/grids"
+               "marie/reader"
+               "marie/etc"))
