@@ -1,11 +1,11 @@
-mof 🦋
-======
+marie
+=====
 
 
 Overview
 --------
 
-This is a small collection of miscellaneous Common Lisp utilities.
+This is my personal collection of Common Lisp utilities.
 
 
 Usage
@@ -14,16 +14,16 @@ Usage
 Clone this repo to `~/common-lisp`:
 
     $ mkdir -p ~/common-lisp
-    $ git clone https://github.com/ebzzry/mof ~/common-lisp/mof
+    $ git clone https://github.com/ebzzry/marie ~/common-lisp/marie
 
 Then load it:
 
     $ sbcl
-    * (asdf:make :mof)
+    * (asdf:make :marie)
 
 To return the symbols exported by this package:
 
-    * (mof:symbols :mof)
+    * (marie:symbols :marie)
 
 
 Credits

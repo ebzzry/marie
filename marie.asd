@@ -1,12 +1,12 @@
 #-asdf3.1 (error "ASDF 3.1 or bust!")
 
-(defpackage :mof-system
+(defpackage :marie-system
   (:use #:cl #:asdf))
 
-(in-package #:mof-system)
+(in-package #:marie-system)
 
-(defsystem :mof
-  :name "mof"
+(defsystem :marie
+  :name "marie"
   :version "0.0.10"
   :description "My personal miscellaneous utilities"
   :license "CC0"
