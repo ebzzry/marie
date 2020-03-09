@@ -8,15 +8,13 @@
 (defsystem :marie
   :name "marie"
   :version "1.0.0"
-  :description "My personal collection of utilities"
+  :description "My personal collection of Common Lisp utilities"
   :license "CC0"
   :author "Rommel MARTINEZ <rom@mimix.io>"
   :class :package-inferred-system
-  :depends-on ("marie/sequences"
-               "marie/strings"
+  :depends-on ("marie/strings"
+               "marie/sequences"
                "marie/symbols"
-               "marie/collect"
                "marie/files"
-               "marie/grids"
                "marie/reader"
                "marie/etc"))
