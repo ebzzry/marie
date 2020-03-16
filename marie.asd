@@ -1,3 +1,5 @@
+;;;; marie.asd - top-level ASDF file of marie
+
 #-asdf3.1 (error "ASDF 3.1 or bust!")
 
 (defpackage :marie-system
@@ -17,4 +19,5 @@
                "marie/symbols"
                "marie/files"
                "marie/reader"
-               "marie/etc"))
+               "marie/etc"
+               "marie/driver"))
