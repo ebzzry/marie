@@ -9,7 +9,7 @@
 
 (defsystem :marie
   :name "marie"
-  :version "1.0.3"
+  :version "1.0.5"
   :description "My personal collection of Common Lisp utilities"
   :license "CC0"
   :author "Rommel MARTINEZ <rom@mimix.io>"
