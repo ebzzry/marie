@@ -5,7 +5,7 @@ marie
 Overview
 --------
 
-This is my personal collection of Common Lisp utilities.
+This is a collection of Common Lisp utilities.
 
 
 Usage
@@ -18,15 +18,8 @@ Clone this repo to `~/common-lisp`:
 
 Then load it:
 
-    $ sbcl
-    * (asdf:make :marie)
+    * (ql:quickload :marie)
 
 To return the symbols exported by this package:
 
     * (marie:symbols :marie)
-
-
-Credits
--------
-
-This system uses list comprehensions written by [Sven-Olof Nyström](http://user.it.uu.se/~svenolof/).
