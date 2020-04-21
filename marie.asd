@@ -14,8 +14,7 @@
   :license "CC0"
   :author "Rommel MARTINEZ <rom@mimix.io>"
   :class :package-inferred-system
-  :depends-on (#:closer-mop
-               "marie/strings"
+  :depends-on ("marie/strings"
                "marie/sequences"
                "marie/symbols"
                "marie/files"
