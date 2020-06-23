@@ -10,7 +10,7 @@
 (defsystem :marie
   :name "marie"
   :version "1.1.0"
-  :description "A collection of Common Lisp utilities"
+  :description "A small collection of Common Lisp utilities"
   :license "CC0"
   :author "Rommel MARTINEZ <rom@mimix.io>"
   :class :package-inferred-system
