@@ -21,6 +21,6 @@ Then load it with [Quicklisp](https://quicklisp.org):
     $ sbcl
     * (ql:quickload :marie)
 
-To print the symbols exported by this package:
+To print the symbols exported by marie:
 
-    * (marie:symbols :marie)
+    * (marie:external-symbols :marie)
