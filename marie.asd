@@ -9,16 +9,16 @@
 
 (defsystem :marie
   :name "marie"
-  :version "1.3.3"
+  :version "1.3.4"
   :description "A small collection of Common Lisp utilities"
   :license "CC0"
   :author "Rommel MARTINEZ <rom@mimix.io>"
   :class :package-inferred-system
   :depends-on ("marie/defs"
+               "marie/reader"
                "marie/strings"
                "marie/sequences"
                "marie/symbols"
                "marie/files"
-               "marie/reader"
                "marie/etc"
                "marie/driver"))
