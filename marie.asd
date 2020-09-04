@@ -1,6 +1,6 @@
-;;;; marie.asd - top-level ASDF file of marie
+;;;; marie.asd
 
-#-asdf3.1 (error "ASDF 3.1 or bust!")
+#-ASDF3.1 (error "ASDF 3.1 or bust!")
 
 (defpackage :marie-system
   (:use #:cl #:asdf))
@@ -9,16 +9,16 @@
 
 (defsystem :marie
   :name "marie"
-  :version "1.3.4"
+  :version "1.3.6"
   :description "A small collection of Common Lisp utilities"
   :license "CC0"
   :author "Rommel MARTINEZ <rom@mimix.io>"
   :class :package-inferred-system
-  :depends-on ("marie/defs"
-               "marie/reader"
-               "marie/strings"
-               "marie/sequences"
-               "marie/symbols"
-               "marie/files"
-               "marie/etc"
-               "marie/driver"))
+  :depends-on (#:marie/defs
+               #:marie/reader
+               #:marie/sequences
+               #:marie/strings
+               #:marie/symbols
+               #:marie/files
+               #:marie/etc
+               #:marie/driver))
